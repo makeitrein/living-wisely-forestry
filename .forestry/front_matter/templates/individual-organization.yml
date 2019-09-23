@@ -1,4 +1,28 @@
 ---
 label: Individual Organization
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Organization Name
+- name: organization_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Organization Content
+- name: organization_description
+  type: text
+  config:
+    required: false
+  label: Organization Description
+- name: organization_image
+  type: file
+  config:
+    maxSize: 250
+  label: Organization Image
