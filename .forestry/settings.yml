@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: get-started
+  path: pages/get-started
   label: Let's Get Started
 - type: document
   path: our-team
